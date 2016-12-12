@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow android:baselineAligned="false"
+            >
+
+            <ImageView android:id="@+id/pokemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_span="3" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/estiloListviewTextview"
+                android:id="@+id/Nº"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0" />
+
+            <TextView
+               style="@style/estiloListviewTextview"
+                android:id="@+id/rnombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <TextView
+                style="@style/estiloListviewTextview"
+                android:id="@+id/raltura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                style="@style/estiloListviewTextview"
+                android:id="@+id/rpeso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0" />
+
+            <TextView
+                style="@style/estiloListviewTextview"
+                android:id="@+id/rtipo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1" />
+
+            <TextView
+                style="@style/estiloListviewTextview"
+                android:id="@+id/rtipo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

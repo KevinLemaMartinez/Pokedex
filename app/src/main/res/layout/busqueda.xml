@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pokeball">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/hintNombrePokemon"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/estiloTextView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numero"
+        android:layout_below="@+id/nombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/hintNumeroPokemon"
+        style="@style/estiloEditText" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rtipo1"
+        android:layout_below="@+id/numero"
+        android:layout_alignLeft="@+id/rtipo2"
+        android:layout_alignStart="@+id/rtipo2"
+        android:entries="@array/tipos"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rtipo2"
+        android:layout_below="@+id/rtipo1"
+        android:layout_toRightOf="@+id/numero"
+        android:layout_toEndOf="@+id/numero"
+        android:layout_marginLeft="144dp"
+        android:layout_marginStart="144dp"
+        android:entries="@array/tipos"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo1"
+        android:id="@+id/tipo1txtview"
+        android:layout_below="@+id/numero"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/estiloTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo2"
+        android:id="@+id/tipo2txtview"
+        android:layout_below="@+id/rtipo1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/estiloTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso"
+        android:id="@+id/pesotxtview"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pesotxtview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/radioGroupPeso"
+        android:visibility="invisible"
+        >
+
+        <RadioButton
+            android:button="@drawable/selectoraltura1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pesorb1"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selectoraltura2"
+            android:id="@+id/pesorb2"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selectoraltura3"
+            android:id="@+id/pesorb3" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pesotxtview"
+        android:layout_alignBottom="@+id/radioGroupPeso"
+        android:layout_alignLeft="@+id/rtipo2"
+        android:layout_alignStart="@+id/rtipo2"
+        android:id="@+id/radioGroupAltura"
+        android:layout_alignRight="@+id/filtraraltura"
+        android:layout_alignEnd="@+id/filtraraltura"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alturarb1"
+            android:button="@drawable/selectortamanho1"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alturarb2"
+            android:button="@drawable/selectortamanho2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alturarb3"
+            android:button="@drawable/selectortamanho3" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altura"
+        android:id="@+id/alturatxtview"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/radioGroupAltura"
+        android:layout_alignStart="@+id/radioGroupAltura" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buscarpokemon"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        style="@style/estiloBoton"
+        android:text="@string/btnBuscar" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pesoCheckbox"
+        android:id="@+id/filtrarpeso"
+        android:layout_above="@+id/pesotxtview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        style="@style/estiloCheckbox" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alturaCheckbox"
+        android:id="@+id/filtraraltura"
+        android:checked="false"
+        android:layout_above="@+id/alturatxtview"
+        android:layout_alignLeft="@+id/rtipo2"
+        android:layout_alignStart="@+id/rtipo2"
+        style="@style/estiloCheckbox"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

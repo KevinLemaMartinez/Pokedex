@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#970003</color>
+    <color name="colorPrimaryDark">#f9001d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBoton">#8e12f3</color>
+    <color name="textColor">#ffffff</color>
+    <color name="textoEditText">#0a6615</color>
+    <color name="textoTextView">#66150a</color>
+    <color name="textoCheckbox">#172e6e</color>
+    <color name="textoListview">#16cf1d</color>
+    <color name="fondoListview">#ce0c117e</color>
+</resources>

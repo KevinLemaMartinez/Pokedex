@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="hint_usuario">Usuario</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_fecha">Fecha Nacimiento</string>
+    <string name="sexo">Sexo</string>
+    <string name="btn_new_user">Nuevo Usuario</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="hint_direccion">Direccion</string>
+    <string name="hint_fech_nac">Fecha de Nacimiento</string>
+    <string name="checkbox_terminos">He leído y acepto los términos y condiciones</string>
+    <string name="terminos">El prestador se encuentra profundamente comprometido con el cumplimiento de la normativa española de protección de datos de carácter personal, y garantiza el cumplimiento íntegro de las obligaciones dispuestas, así como la implementación de las medidas de seguridad dispuestas en el art. 9 de la Ley 15/1999, de Protección de Datos de Carácter Personal (LOPD) y en el Reglamento de Desarrollo de la LOPD.
+El prestador pone a disposición de los usuarios la Política de Privacidad de la entidad informando a los usuarios respecto a los siguientes aspectos:
+Datos del Responsable del tratamiento.
+Datos tratados.
+Fichero en el que se almacenan.
+Finalidad del tratamiento.
+Obligatoriedad o no de facilitarlos, así como las consecuencias en caso de no facilitarlos.
+Sobre los derechos que asisten a todo usuario y el procedimiento para ejercitarlos.
+Propiedad Intelectual e industrial
+El sitio web, incluyendo a título enunciativo pero no limitativo su programación, edición, compilación y demás elementos necesarios para su funcionamiento, los diseños, logotipos, texto y/o gráficos son propiedad del prestador o en su caso dispone de licencia o autorización expresa por parte de los autores. Todos los contenidos del sitio web se encuentran debidamente protegidos por la normativa de propiedad intelectual e industrial, así como inscritos en los registros públicos correspondientes.
+Independientemente de la finalidad para la que fueran destinados, la reproducción total o parcial, uso, explotación, distribución y comercialización, requiere en todo caso de la autorización escrita previa por parte del prestador. Cualquier uso no autorizado previamente por parte del prestador será considerado un incumplimiento grave de los derechos de propiedad intelectual o industrial del autor.
+Los diseños, logotipos, texto y/o gráficos ajenos al prestador y que pudieran aparecer en el sitio web, pertenecen a sus respectivos propietarios, siendo ellos mismos responsables de cualquier posible controversia que pudiera suscitarse respecto a los mismos. En todo caso, el prestador cuenta con la autorización expresa y previa por parte de los mismos.
+(Opcional) El prestador autoriza/no autoriza expresamente a que terceros puedan redirigir directamente a los contenidos concretos del sitio web, debiendo en todo caso redirigir al sitio web principal del prestador.
+El prestador reconoce a favor de sus titulares los correspondientes derechos de propiedad industrial e intelectual, no implicando su sola mención o aparición en el sitio web la existencia de derechos o responsabilidad alguna del prestador sobre los mismos, como tampoco respaldo, patrocinio o recomendación por parte del mismo.
+Para realizar cualquier tipo de observación respecto a posibles incumplimientos de los derechos de propiedad intelectual o industrial, así como sobre cualquiera de los contenidos del sitio web, puede hacerlo a través del siguiente correo electrónico.
+Ley Aplicable y Jurisdicción
+Para la resolución de todas las controversias o cuestiones relacionadas con el presente sitio web o de las actividades en él desarrolladas, será de aplicación la legislación española, a la que se someten expresamente las partes, siendo competentes para la resolución de todos los conflictos derivados o relacionados con su uso los Juzgados y Tribunales de (Indicar lugar).</string>
+
+    <string name="hintNombrePokemon">Nombre</string>
+    <string name="hintNumeroPokemon">Número</string>
+    <string name="tipo1">Tipo 1</string>
+    <string name="tipo2">Tipo 2</string>
+    <string name="pesoCheckbox">Filtrar Peso</string>
+    <string name="alturaCheckbox">Filtrar Altura</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="title_activity_editar_perfil">EditarPerfil</string>
+</resources>

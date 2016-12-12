@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".NuevoUsuario">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/hint_nombre"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:layout_below="@+id/nombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/hint_usuario"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@+id/login"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/hint_pass"
+        android:inputType="textPassword"
+        android:maxLength="8"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="@string/hint_email"
+        android:layout_below="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/direccion"
+        android:hint="@string/hint_direccion"
+        android:layout_below="@+id/email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_fecha"
+        android:id="@+id/dateButton"
+        android:onClick="mostrarCalendario"
+        android:layout_below="@+id/direccion"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/estiloBoton" />
+
+    <TextView
+        style="@style/estiloTextView"
+        android:layout_width="wrap_content"
+        android:inputType="date"
+        android:layout_height="wrap_content"
+        android:id="@+id/fech_nac"
+        android:layout_alignTop="@+id/dateButton"
+        android:layout_alignBottom="@+id/dateButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="30dp" />
+
+    <TextView
+        style="@style/estiloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sexo"
+        android:id="@+id/sexo"
+        android:layout_below="@+id/dateButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_alignTop="@+id/sexo"
+        android:layout_alignRight="@+id/scrollView"
+        android:layout_alignEnd="@+id/scrollView"
+        android:layout_alignBottom="@+id/sexo"
+        android:layout_toRightOf="@+id/dateButton"
+        android:layout_toEndOf="@+id/dateButton"
+        android:entries="@array/arraysexo"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sexo"
+       >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terminos"
+            android:id="@+id/terminos" />
+    </ScrollView>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_terminos"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/scrollView"
+        android:layout_centerHorizontal="true"
+        android:checked="false" />
+
+    <Button
+        style="@style/estiloBoton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_registrar"
+        android:id="@+id/registrar"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

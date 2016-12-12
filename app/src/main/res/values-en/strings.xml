@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="hint_usuario">User</string>
+    <string name="hint_nombre">Name</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_fecha">Date Born</string>
+    <string name="sexo">Sex</string>
+    <string name="btn_new_user">New User</string>
+    <string name="btn_registrar">Register</string>
+    <string name="hint_direccion">Adress</string>
+    <string name="hint_fech_nac">Date Born</string>
+    <string name="checkbox_terminos">I read and accept the license terms</string>
+    <string name="terminos">The provider is deeply committed to compliance with Spanish regulations to protect personal data and ensures full compliance with the obligations provided and the implementation of security measures provided for in art. 9 of Law 15/1999 on the Protection of Personal Data (Act) and Regulation Development LOPD.
+    The provider offers users the Privacy Policy of the entity informing users about the following aspects:
+    Data from the controller.
+    Data processed.
+    File in which are stored.
+    Purpose of treatment.
+    Mandatory or not provided, as well as the consequences of not providing them.
+    On the rights granted to all users and the procedure for exercising.
+    Intellectual property
+    The website, including without limitation but not limited to programming, editing, compilation and other elements necessary for its operation, designs, logos, text and / or graphics are the property of the provider or if you have a license or authorization the authors. All website contents are adequately protected by the rules of intellectual property and registered in public records.
+    Regardless of the purpose for which they were intended, total or partial reproduction, use, exploitation, distribution and marketing, in any case it requires the prior written authorization by the provider. Any previously authorized by the provider use is considered a serious breach of the rights of intellectual property of the author.
+    The designs, logos, text and / or graphics outside the provider and that may appear on the website belong to their respective owners, themselves responsible for any dispute that may arise in respect thereof. In any case, the lender has the express prior authorization from them.
+    (Optional) The provider authorizes / does not expressly authorize third parties to redirect directly to the specific contents of the website in any case must redirect to the main website of the provider.
+    The lender recognizes in favor of their holders the corresponding rights of intellectual property, not their mere mention or appearance on the website any rights or liability of the provider on them, nor endorsement, sponsorship or recommendation by thereof.
+    To make any comments concerning possible breaches of the rights of intellectual property, as well as any of the contents of the website, you can do so via the following email.
+    Governing Law and Jurisdiction
+    For the resolution of all disputes or questions relating to this website or activities in it developed, will apply Spanish law to which the parties expressly submit themselves are competent to resolve all disputes or related to use the Courts of (indicate place).</string>
+    <string name="hintNombrePokemon">Name</string>
+    <string name="hintNumeroPokemon">Number</string>
+    <string name="tipo1">Type 1</string>
+    <string name="tipo2">Type 2</string>
+    <string name="pesoCheckbox">Weight filter</string>
+    <string name="alturaCheckbox">Height filter</string>
+    <string name="btnBuscar">Search</string>
+</resources>

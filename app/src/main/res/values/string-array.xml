@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arraysexo">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+
+    <string-array name="tipos">
+        <item>N/A</item>
+        <item>Acero</item>
+        <item>Agua</item>
+        <item>Bicho</item>
+        <item>Dragón</item>
+        <item>Eléctrico</item>
+        <item>Fantasma</item>
+        <item>Fuego</item>
+        <item>Hada</item>
+        <item>Hielo</item>
+        <item>Lucha</item>
+        <item>Normal</item>
+        <item>Planta</item>
+        <item>Psíquico</item>
+        <item>Roca</item>
+        <item>Siniestro</item>
+        <item>Tierra</item>
+        <item>Veneno</item>
+        <item>Volador</item>
+    </string-array>
+
+</resources>
